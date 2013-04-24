@@ -6,5 +6,5 @@
 #import "test/com/photon/touchtunes/testcase/Login_suite.js"
 #import "test/com/photon/touchtunes/testcase/AccountUpdate_suite.js"
 #import "test/com/photon/touchtunes/testcase/CreatePlaylist_suite.js"
-#import "test/com/photon/touchtunes/testcase/EditPlaylist_Testsuite.js"
-#import "test/com/photon/touchtunes/testcase/ForgotPassword_suite.js"
+#import "test/com/photon/touchtunes/testcase/EditPlaylist_Testsuite.js1"
+ 
