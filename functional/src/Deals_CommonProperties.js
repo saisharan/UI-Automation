@@ -1,0 +1,143 @@
+/* 
+ * Project Name	:	Digital Deals
+ * Project Code : 	01683
+ * Author		: 	Jaganathan k 	  Email: jaganathan.kamalakannan@photoninfotech.net 
+ *		    	  	Karthikeyan S     Email: karthikeyan.shanmugam@photoninfotech.net 
+ * Manager		: 	Shivashankari N   Email: shivashankari.n@photon.in
+ */
+ 
+//Contains Common Properties for all Test Cases
+
+//Landing Page.
+var	LANDING_MYDEALS_TEXT = "MY DEALS";									//A_SMT_001, A_SMT_004, A_SMT_005, A_SMT_006, A_SMT_009, A_SMT_011, A_SMT_012, A_SMT_015, A_SMT_021
+var LANDING_WEEKLYINSERT_BUTTON = "fpo weekly insert";					//A_SMT_001, A_SMT_004, A_SMT_005, A_SMT_006, A_SMT_009, A_SMT_011, A_SMT_012, A_SMT_015, A_SMT_021
+var LANDING_DEALOFDAY_BUTTON = 1;						//A_SMT_005, A_SMT_006, A_SMT_009, A_SMT_011, A_SMT_012, A_SMT_015, A_SMT_021
+var LANDING_ALLDEALS_BUTTON = "fpo all deals";							//A_SMT_012
+var LANDING_RECENTLYVIEWED_BUTTON="fpo recently viewed";				//A_SMT_012
+var LANDING_MOSTPOPULAR_BUTTON="fpo most popular";						//A_SMT_012
+var LANDING_BIGGESTDISCOUNTS_BUTTON="fpo newest deals";					//A_SMT_012
+var LANDING_MANAGEDEALS_BUTTON = "manage deals";						//A_SMT_005, A_SMT_006, A_SMT_009, A_SMT_011, A_SMT_012, A_SMT_013, A_SMT_015, A_SMT_021
+var LANDING_SEARCHMAGNIFIER_ICON="btn search DEFAULT";					//A_SMT_018, //A_SMT_023
+var LANDING_SEARCH_TEXTFIELD="searchTextField";							//A_SMT_018
+
+var LANDING_MENUBUTTON_INDEX = 0;                             			//A_SMT_001, A_SMT_004, A_SMT_005, A_SMT_006, A_SMT_009, A_SMT_011, A_SMT_014,A_SMT_015, A_SMT_018,A_SMT_020
+
+
+//Menu Options
+var MENUBAR_HOME_LINK="HOME";											//A_SMT_005, A_SMT_014, A_SMT_015, A_SMT_016, A_SMT_018,A_SMT_020
+var MENUBAR_SEARCH_LINK="SEARCH";										//A_SMT_005, A_SMT_015, A_SMT_016
+var MENUBAR_YOURLOCALSTORE_LINK="YOUR LOCAL STORE";						//A_SMT_005, A_SMT_006, A_SMT_015, A_SMT_016
+var MENUBAR_ABOUT_LINK="ABOUT";											//A_SMT_005, A_SMT_015, A_SMT_016, A_SMT_016
+
+
+//Weekly Insert Page
+var WEEKLY_WEEKLYDEALS_TITLE="WEEKLY DEALS";							//A_SMT_014, A_SMT_020
+var WEEKLY_HDTVSAVINGS_LINK="HDTV SAVINGS";
+var WEEKLY_BACKTOSCHOOL_LINK="BACK TO SCHOOL";
+var WEEKLY_HOMETHEATER_LINK="HOME THEATER";								//A_SMT_014, A_SMT_020, A_SMT_021
+var WEEKLY_AUDIOMP3_LINK="AUDIO & MP3";									//A_SMT_014, A_SMT_020
+var WEEKLY_COMPACTCAMERAS_LINK="COMPACT CAMERAS";						//A_SMT_020
+var WEEKLY_COMPACTCAMCODERS_LINK="CAMERAS CAMCORDERS";
+var WEEKLY_MOBILE_LINK="MOBILE";										//A_SMT_014, A_SMT_020, A_SMT_021
+var WEEKLY_ADDTOMYDEALS_BUTTON="ADD TO MY DEALS";						//A_SMT_020
+var WEEKLY_FILTERSORT_BUTTON="FILTER & SORT";							//A_SMT_020
+var WEEKLY_COMPARE_BUTTON="btn compare DEFAULT";						//A_SMT_020
+var WEEKLY_PRODUCTCOUNTS_TEXT="355 Deals";								//A_SMT_020
+var WEEKLY_BIGHOMETHEATERSAVINGS_TEXT="BIG HOME THEATER SAVINGS";		//A_SMT_014, A_SMT_020
+var WEEKLY_SEARCH_TEXTFIELDS="btn search DEFAULT";						//A_SMT_020
+
+var WEEKLYDEALS_CATEGORIES_INDEX= 4;
+var WEEKELYDEALS_MOBILE_LINK = "MOBILE";								//A_SMT_021
+var WEEKELYDEALS_PRINTERS_LINK = "PRINTERS";							//A_SMT_021
+
+
+//Your Local Store Overlay
+var OVERLAY_PHONENUMBER_TEXT="Phone : 612-861-3917";					//A_SMT_001, A_SMT_005, A_SMT_016
+var OVERLAY_ADDRESS_TEXT="1000 West 78th St,  Richfield, MN 55423";		//A_SMT_001, A_SMT_005, A_SMT_016
+var OVERLAY_CHANGELOCATION_BUTTON="CHANGE LOCATION";					//A_SMT_001, A_SMT_004, A_SMT_005, A_SMT_010, A_SMT_011, A_SMT_016
+var OVERLAY_GETDIRECTIONS_BUTTON="GET DIRECTIONS";						//A_SMT_001, A_SMT_005, A_SMT_006, A_SMT_009, A_SMT_010, A_SMT_011, A_SMT_016
+var OVERLAY_MYLOCALSTORE_TEXT="MY LOCAL STORE";							//A_SMT_001, A_SMT_004, A_SMT_005, A_SMT_009, A_SMT_010, A_SMT_011, A_SMT_016
+var OVERLAY_RICHFIELD_TEXT="Richfield MN";								//A_SMT_005, A_SMT_006, A_SMT_016
+var OVERLAY_CLOSE_BUTTON="btn close popup";								//A_SMT_005, A_SMT_006, A_SMT_010, A_SMT_011, A_SMT_016
+var OVERLAY_COPYRIGHT_MAPIMAGE="©2012 Google";							//A_SMT_005, A_SMT_011, A_SMT_016
+var OVERLAY_WEEKLYDAYS_TEXT = "SUN, MON, TUE, WED, THU, FRI, SAT";		//A_SMT_001, A_SMT_005, A_SMT_016
+
+
+//CommonVariables
+var SEARCHSTORE_TEXTFIELD_INDEX =0;	//A_SMT_009, A_SMT_010
+var SEARCHSTORE_TEXTFIELD_CITY = 1;										//A_SMT_004
+var LOCALSTORE_BUTTON_STATE = "State";
+var WAIT=1;
+
+
+//Change Location Page
+var CHANGE_CITYSEARCH_TEXT="fords";										//A_SMT_011
+var CHANGE_STATESEARCH_TEXT="nevada";									//A_SMT_010
+var CHANGE_ZIPCODESEARCH_TEXT="74034";									//A_SMT_009
+var CHANGE_WINDOWCLOSE_BUTTON="btn close box DEFAULT";					//A_SMT_006, A_SMT_009, A_SMT_010, A_SMT_011
+
+//Biggest Discount 
+var DISCOUNT_TITLE_TEXT="BIGGEST DISCOUNT";								//A_SMT_025								
+var DISCOUNT_GRIDVIEW_FIRSTROW_INDEX=0;									//A_SMT_025
+var DISCOUNT_GRIDVIEW_SECONDROW_INDEX=0;								//A_SMT_025
+var DISCOUNT_BACK_BUTTON="btn back DEFAULT";							//A_SMT_025, //A_SMT_023
+var DISCOUNT_MENU_BUTTON="btn side nav DEFAULT";						//A_SMT_025, //A_SMT_023
+
+
+//PDP Page
+var PDP_PRODUCTDETAIL_TITLE="PRODUCT DETAIL";							//A_SMT_025, A_SMT_026, A_SMT_036
+var PDP_ADDTOCART_BUTTON="Add to Cart";									//A_SMT_025, A_SMT_026, A_SMT_040
+var PDP_OVERVIEW_TAB="Overview";										//A_SMT_025, A_SMT_026
+var PDP_SPECIFICATIONS_TAB="Specifications";							//A_SMT_025, A_SMT_026
+var PDP_REVIEWS_TAB="Reviews";											//A_SMT_025, A_SMT_026
+var PDP_SOLDOUT_TEXT="Sold out";										//A_SMT_025, A_SMT_026
+var PDP_CUSTOMERREVIEW_TEXT="Find a Product or Customer Review";		//A_SMT_025, A_SMT_026
+var PDP_FINDASTORE_TEXT="Find a Store";									//A_SMT_025, A_SMT_026
+var PDP_VISITDESKTOPSITE_TEXT="Visit the Desktop Site";					//A_SMT_025, A_SMT_026
+var PDP_SORRY_TEXT="Sorry, the page you requested was not found.";		//A_SMT_025, A_SMT_026
+var PDP_TEMPORARILYUNAVAILABLE_TEXT="The page may be temporarily unavailable or may no longer exist. There are a few things you can try:";											//A_SMT_025, A_SMT_026
+
+//Most Popular
+var MOSTPOPULAR_TITLE_TEXT="MOST POPULAR";								//A_SMT_026
+
+
+//Deal of the Day
+var DEALOFTHEDAY_TITLE_TEXT="DEAL OF THE DAY";							//A_SMT_029
+var DEALOFTHEDAY_HOURS_TEXT="HOURS"										//A_SMT_029
+var DEALOFTHEDAY_MINUTES_TEXT="MINUTES"									//A_SMT_029
+var DEALOFTHEDAY_SECONDS_TEXT="SECONDS"									//A_SMT_029
+var DEALOFTHEDAY_TODAYDEALENDSIN_TEXT="TODAY'S DEAL ENDS IN:"			//A_SMT_029
+var DEALOFTHEDAY_PRODUCTTILE_INDEX=0;									//A_SMT_029
+
+
+//Search Results
+var LANDING_SEARCHTERM_TEXT="LCD TV";									//A_SMT_031
+var SEARCHRESULTS_TITLE_TEXT="SEARCH RESULTS";							//A_SMT_031
+
+
+//All Deals Page
+var ALLDEALS_TITLE_TEXT = "ALL DEALS";                                   //A_SMT_023
+
+var VIEWCART_LINK = "View Cart";                                        //A_SMT_040
+var PRODUCT_CHECKOUT = "Checkout";                                      //A_SMT_041
+var DEALS_VIEWCART = "VIEW CART";                                       //A_SMT_041
+var DEALS_CHECKOUT = "CHECKOUT";                                        //A_SMT_041
+var DEALS_BACK = "BACK TO CART";                                        //A_SMT_041
+
+var AllDEALS_BUTTON_INDEX = 4;											//A_SMT_039
+var IMAGES_INDEX = 0;													//A_SMT_039			
+var AllDEALS_TITLE = "ALL DEALS";										//A_SMT_039
+var ADDTOCART_BUTTON = 0; 												//A_SMT_039
+var ALLDEALS_PRODUCT2_X = 270 ;											//A_SMT_039
+var ALLDEALS_PRODUCT2_Y = 510;											//A_SMT_039
+var ALLDEALS_PRODUCT1_X = 510;											//A_SMT_039
+var ALLDEALS_PRODUCT1_Y = 240 ;											//A_SMT_039
+var GLOBAL_BACK_BUTTON = 1;												//A_SMT_039
+var PRODUCT_DETAIL_OVERVIEW_INDEX= 3;									//A_SMT_039
+var PRODUCT_CHECKOUT_BUTTON = 0;										//A_SMT_039
+var CHECKOUT_PRODUCT_LINK = 0;											//A_SMT_039
+var VIEWCART_BUTTON = 1;												//A_SMT_039
+var VIEWCART_X = 948;													//A_SMT_039
+var VIEWCART_Y = 748;													//A_SMT_039
+var CLOSE_BUTTON =1;													//A_SMT_039
+var CHECKOUT_BUTTON =2;													//A_SMT_039
